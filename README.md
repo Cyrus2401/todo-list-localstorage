@@ -10,20 +10,16 @@ A lightweight **web-based task management app** that saves your tasks directly i
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-| Technology | Role |
-|---|---|
-| HTML5 | Structure & markup |
-| CSS3 | Custom styling |
-| JavaScript (ES6+) | Logic & DOM manipulation |
-| [Bootstrap 5.0.2](https://getbootstrap.com/) | UI components & responsiveness |
-| [Bootstrap Icons](https://icons.getbootstrap.com/) | Icon set |
-| LocalStorage API | Client-side data persistence |
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ---
 
-## 🚀 Installation
+## Installation
 
 No installation or build step required. Simply clone and open in your browser.
 
@@ -36,17 +32,15 @@ Then open `index.html` directly in your browser.
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
 > 🔗 [Live Demo](https://todo-list-localstorage-omega.vercel.app/)
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**.  
 Feel free to use, modify, and distribute it freely.
 
 ---
-
-<p align="center">Made with ❤️ by <a href="https://github.com/Cyrus2401">Cyrus2401</a></p>
