@@ -1,22 +1,20 @@
 /* Declaration des variables */
-
 let inputTask = document.querySelector('.inputTask')
 let btnAddTask = document.querySelector('.btnAddTask')
 let noTask = document.querySelector('.noTask')
 let divTaskList = document.querySelector('.divTaskList')
 let titleTask = document.querySelector('.titleTask')
 let img = document.querySelector('img')
+let currentYear = document.querySelector('#current-year')
+
+currentYear.innerHTML = new Date().getFullYear()
 
 /* Au click du boutton d'ajout de la tâche */
-
 btnAddTask.addEventListener('click', (e) => {
-    
     e.preventDefault()
 
     /* Si le champs n'est pas vide */
-
     if(inputTask.value.trim() != "" ){
-
         let  localItems = JSON.parse(localStorage.getItem('localItem'))
         if(localItems === null){
             taskList = []
@@ -30,15 +28,12 @@ btnAddTask.addEventListener('click', (e) => {
         localStorage.setItem('localItem',JSON.stringify(taskList))
 
         showList()
-
     }
-
 })
 
 /* fonction d'affichage des tâches */
 
 function showList() {
-
     let out = ""
     let  localItems = JSON.parse(localStorage.getItem('localItem'))
 
@@ -69,7 +64,6 @@ function showList() {
 showList()
 
 /* fonction de suppression d'une tâche */
-
 function deleteItem(index){
     let  localItems = JSON.parse(localStorage.getItem('localItem'))
     taskList.splice(index, 1)
@@ -78,7 +72,6 @@ function deleteItem(index){
 }
 
 /* fonction de suppression de toutes les tâches */
-
 deleteAllTask.addEventListener('click', () => {
     localStorage.clear()
     showList()
