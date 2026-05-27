@@ -37,10 +37,3 @@ Then open `index.html` directly in your browser.
 > 🔗 [Live Demo](https://todo-list-localstorage-omega.vercel.app/)
 
 ---
-
-## License
-
-This project is licensed under the **MIT License**.  
-Feel free to use, modify, and distribute it freely.
-
----
