@@ -31,9 +31,3 @@ cd todo-list-localstorage
 Then open `index.html` directly in your browser.
 
 ---
-
-## Live Demo
-
-> 🔗 [Live Demo](https://todo-list-localstorage-omega.vercel.app/)
-
----
